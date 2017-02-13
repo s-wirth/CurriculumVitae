@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+    color: #231F20;
+}
+
+h1 {
+    padding-bottom: 0.4rem;
+}
+
+h1,
+h2 {
+    color: #ffffff;
+}
+
+a {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.6);
+    background: #2d2d2d;
+    padding: 1.4rem;
+    color: #ffffff;
+}
+
+.header a {
+    color: #ffffff;
+}
+
+.intro {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-weight: bold;
+    color: #009e90;
+    font-size: 1.3rem;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #2d2d2d;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.content-section {
+    margin-bottom: 1.5rem;
+}
+
+.content-section ul {
+    padding-left: 30px;
+}
+
+.profileimg {
+    height: 15rem;
+    width: auto;
+    margin: 1rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 0.5rem solid #009e90;
+}
+
+.content-main {
+    margin: 4rem auto;
+    width: 50%;
+}
+
+.references-wrapper {
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.references {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.reference {
+    width: 300px;
+}
+
+.name {
+    font-style: italic;
+}
+
+@media only screen and (max-width: 850px) {
+    .references {
+        flex-direction: column;
+    }
+}
+
+.reference {
+    margin: 2rem;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo {
+    color: #009e90;
+    height: 20px;
+    width: auto;
+    padding-right: 0.2rem;
+}
+
+.profile {
+    font-size: 1.2rem;
+    margin-right: 3rem;
+}
+
+.download-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+    background: #2d2d2d;
+    padding: 2rem;
+    margin: 0;
+}
+
+.download-button {
+    order: 1;
+    background: #009e90;
+    box-shadow: 0 0 10px rgba(0,0,0,.8);
+    border-radius: 2px;
+    width: 15rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background: #00877b;
+}
