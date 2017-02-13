@@ -30,6 +30,16 @@ a {
     color: #ffffff;
 }
 
+.profileimg {
+    height: 15rem;
+    width: auto;
+    margin: 1rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 0.5rem solid #009e90;
+}
+
 .intro {
     font-style: italic;
     margin-bottom: 2rem;
@@ -57,19 +67,15 @@ a {
     padding-left: 30px;
 }
 
-.profileimg {
-    height: 15rem;
-    width: auto;
-    margin: 1rem;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    border: 0.5rem solid #009e90;
-}
-
 .content-main {
     margin: 4rem auto;
     width: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+    .content-main {
+        width: 90%;
+    }
 }
 
 .references-wrapper {
@@ -106,6 +112,12 @@ a {
     text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+    .profiles {
+        flex-direction: column;
+    }
+}
+
 .logo {
     color: #009e90;
     height: 20px;
@@ -116,6 +128,13 @@ a {
 .profile {
     font-size: 1.2rem;
     margin-right: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .profile {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
 }
 
 .download-bar {
