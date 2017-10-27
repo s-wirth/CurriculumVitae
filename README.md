@@ -1,4 +1,4 @@
 Anna-Sophia Wirth
 ==
 
-View my CV at [swirth.github.io/cv](https://s-wirth.github.io/CurriculumVitae)
+View my CV at [https://s-wirth.github.io/CurriculumVitae/](https://s-wirth.github.io/CurriculumVitae)
