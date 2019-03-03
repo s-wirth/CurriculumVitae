@@ -72,6 +72,16 @@ a {
     width: 50%;
 }
 
+.content-section-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-section-flex > .content-section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 @media only screen and (max-width: 500px) {
     .content-main {
         width: 90%;
